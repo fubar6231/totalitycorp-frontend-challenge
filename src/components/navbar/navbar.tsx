@@ -11,7 +11,7 @@ function NavBar() {
                     <Navbar.Brand href="#home">
                         React Bootstrap
                     </Navbar.Brand>
-                    <Form inline>
+                    <Form >
                         <Row>
                             <Col xs="auto">
                                 <Form.Control
@@ -23,7 +23,6 @@ function NavBar() {
                             <Col>
                                 <i className="bi bi-search"></i>
                             </Col>
-
                         </Row>
                     </Form>
                     <i className="bi bi-cart4"></i>
