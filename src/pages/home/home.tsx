@@ -2,16 +2,13 @@ import React, {Component} from 'react';
 import NavBar from '../../components/navbar/navbar';
 import BannerCarousel from "../../components/bannerCarousel/bannerCarousel";
 
-class Home extends Component {
-    render() {
-        return (
-            <div>
-                <NavBar/>
-                <BannerCarousel/>
 
-            </div>
-        );
-    }
+function Home() {
+    return (
+        <div>
+
+        </div>
+    );
 }
 
 export default Home;
